@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="960"
+   height="540"
+   viewBox="0 0 960 540"
+   version="1.1"
+   id="svg2504"
+   sodipodi:docname="lines.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2508" />
+  <sodipodi:namedview
+     id="namedview2506"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.2991932"
+     inkscape:cx="369.84491"
+     inkscape:cy="280.55873"
+     inkscape:window-width="1728"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2504" />
+  <rect
+     style="fill:#f9f9f9;stroke:none;stroke-width:3.26929;stroke-linecap:round"
+     id="rect3042"
+     width="957.47968"
+     height="537.19983"
+     x="2.1066658"
+     y="2.1066658"
+     ry="0" />
+  <text
+     x="480"
+     y="11"
+     dy="12.258064"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="16.129px"
+     opacity="1"
+     fill="#000000"
+     id="text2206">Cubic bézier curve flattening perf (arm-64 M1 max)</text>
+  <text
+     x="26"
+     y="263"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     transform="rotate(270, 26, 263)"
+     id="text2208">
+Average time (ms)
+</text>
+  <text
+     x="510"
+     y="514"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67742px"
+     opacity="1"
+     fill="#000000"
+     id="text2210">Tolerance</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="85,52 85,473 "
+     id="polyline2212" />
+  <text
+     x="76"
+     y="441"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2214">
+0.1
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,441 85,441 "
+     id="polyline2216" />
+  <text
+     x="76"
+     y="402"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2218">
+0.2
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,402 85,402 "
+     id="polyline2220" />
+  <text
+     x="76"
+     y="362"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2222">
+0.3
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,362 85,362 "
+     id="polyline2224" />
+  <text
+     x="76"
+     y="323"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2226">
+0.4
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,323 85,323 "
+     id="polyline2228" />
+  <text
+     x="76"
+     y="284"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2230">
+0.5
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,284 85,284 "
+     id="polyline2232" />
+  <text
+     x="76"
+     y="244"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2234">
+0.6
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,244 85,244 "
+     id="polyline2236" />
+  <text
+     x="76"
+     y="205"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2238">
+0.7
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,205 85,205 "
+     id="polyline2240" />
+  <text
+     x="76"
+     y="165"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2242">
+0.8
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,165 85,165 "
+     id="polyline2244" />
+  <text
+     x="76"
+     y="126"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2246">
+0.9
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,126 85,126 "
+     id="polyline2248" />
+  <text
+     x="76"
+     y="87"
+     dy="0.5ex"
+     text-anchor="end"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2250">
+1.0
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="80,87 85,87 "
+     id="polyline2252" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="86,474 933,474 "
+     id="polyline2254" />
+  <text
+     x="163"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2256">
+0.1
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="163,474 163,479 "
+     id="polyline2258" />
+  <text
+     x="248"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2260">
+0.2
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="248,474 248,479 "
+     id="polyline2262" />
+  <text
+     x="334"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2264">
+0.3
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="334,474 334,479 "
+     id="polyline2266" />
+  <text
+     x="419"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2268">
+0.4
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="419,474 419,479 "
+     id="polyline2270" />
+  <text
+     x="505"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2272">
+0.5
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="505,474 505,479 "
+     id="polyline2274" />
+  <text
+     x="590"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2276">
+0.6
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="590,474 590,479 "
+     id="polyline2278" />
+  <text
+     x="676"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2280">
+0.7
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="676,474 676,479 "
+     id="polyline2282" />
+  <text
+     x="761"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2284">
+0.8
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="761,474 761,479 "
+     id="polyline2286" />
+  <text
+     x="847"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2288">
+0.9
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="847,474 847,479 "
+     id="polyline2290" />
+  <text
+     x="933"
+     y="484"
+     dy="0.76em"
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2292">
+1.0
+</text>
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#000000"
+     stroke-width="1"
+     points="933,474 933,479 "
+     id="polyline2294" />
+  <circle
+     cx="86"
+     cy="152"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2296" />
+  <circle
+     cx="98"
+     cy="267"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2298" />
+  <circle
+     cx="120"
+     cy="332"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2300" />
+  <circle
+     cx="141"
+     cy="358"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2302" />
+  <circle
+     cx="163"
+     cy="375"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2304" />
+  <circle
+     cx="205"
+     cy="399"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2306" />
+  <circle
+     cx="248"
+     cy="410"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2308" />
+  <circle
+     cx="291"
+     cy="419"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2310" />
+  <circle
+     cx="505"
+     cy="438"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2312" />
+  <circle
+     cx="933"
+     cy="456"
+     r="3"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     stroke-width="1"
+     id="circle2314" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#8f8f8f"
+     stroke-width="1"
+     points="86,152 98,267 120,332 141,358 163,375 205,399 248,410 291,419 505,438 933,456 "
+     id="polyline2316" />
+  <circle
+     cx="86"
+     cy="431"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2318" />
+  <circle
+     cx="98"
+     cy="447"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2320" />
+  <circle
+     cx="120"
+     cy="456"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2322" />
+  <circle
+     cx="141"
+     cy="459"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2324" />
+  <circle
+     cx="163"
+     cy="462"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2326" />
+  <circle
+     cx="205"
+     cy="465"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2328" />
+  <circle
+     cx="248"
+     cy="466"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2330" />
+  <circle
+     cx="291"
+     cy="468"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2332" />
+  <circle
+     cx="505"
+     cy="471"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2334" />
+  <circle
+     cx="933"
+     cy="473"
+     r="3"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     stroke-width="1"
+     id="circle2336" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#854be5"
+     stroke-width="1"
+     points="86,431 98,447 120,456 141,459 163,462 205,465 248,466 291,468 505,471 933,473 "
+     id="polyline2338" />
+  <circle
+     cx="86"
+     cy="371"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2340" />
+  <circle
+     cx="98"
+     cy="410"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2342" />
+  <circle
+     cx="120"
+     cy="431"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2344" />
+  <circle
+     cx="141"
+     cy="440"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2346" />
+  <circle
+     cx="163"
+     cy="446"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2348" />
+  <circle
+     cx="205"
+     cy="453"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2350" />
+  <circle
+     cx="248"
+     cy="456"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2352" />
+  <circle
+     cx="291"
+     cy="459"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2354" />
+  <circle
+     cx="505"
+     cy="466"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2356" />
+  <circle
+     cx="933"
+     cy="470"
+     r="3"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     stroke-width="1"
+     id="circle2358" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#ed7de3"
+     stroke-width="1"
+     points="86,371 98,410 120,431 141,440 163,446 205,453 248,456 291,459 505,466 933,470 "
+     id="polyline2360" />
+  <circle
+     cx="86"
+     cy="52"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2362" />
+  <circle
+     cx="98"
+     cy="204"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2364" />
+  <circle
+     cx="120"
+     cy="281"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2366" />
+  <circle
+     cx="141"
+     cy="320"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2368" />
+  <circle
+     cx="163"
+     cy="343"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2370" />
+  <circle
+     cx="205"
+     cy="366"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2372" />
+  <circle
+     cx="248"
+     cy="381"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2374" />
+  <circle
+     cx="291"
+     cy="386"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2376" />
+  <circle
+     cx="505"
+     cy="417"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2378" />
+  <circle
+     cx="933"
+     cy="434"
+     r="3"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     stroke-width="1"
+     id="circle2380" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#e4be08"
+     stroke-width="1"
+     points="86,52 98,204 120,281 141,320 163,343 205,366 248,381 291,386 505,417 933,434 "
+     id="polyline2382" />
+  <circle
+     cx="86"
+     cy="236"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2384" />
+  <circle
+     cx="98"
+     cy="317"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2386" />
+  <circle
+     cx="120"
+     cy="359"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2388" />
+  <circle
+     cx="141"
+     cy="377"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2390" />
+  <circle
+     cx="163"
+     cy="388"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2392" />
+  <circle
+     cx="205"
+     cy="402"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2394" />
+  <circle
+     cx="248"
+     cy="410"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2396" />
+  <circle
+     cx="291"
+     cy="414"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2398" />
+  <circle
+     cx="505"
+     cy="430"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2400" />
+  <circle
+     cx="933"
+     cy="440"
+     r="3"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     stroke-width="1"
+     id="circle2402" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#e85b0a"
+     stroke-width="1"
+     points="86,236 98,317 120,359 141,377 163,388 205,402 248,410 291,414 505,430 933,440 "
+     id="polyline2404" />
+  <circle
+     cx="86"
+     cy="66"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2406" />
+  <circle
+     cx="98"
+     cy="239"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2408" />
+  <circle
+     cx="120"
+     cy="326"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2410" />
+  <circle
+     cx="141"
+     cy="363"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2412" />
+  <circle
+     cx="163"
+     cy="385"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2414" />
+  <circle
+     cx="205"
+     cy="410"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2416" />
+  <circle
+     cx="248"
+     cy="426"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2418" />
+  <circle
+     cx="291"
+     cy="434"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2420" />
+  <circle
+     cx="505"
+     cy="453"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2422" />
+  <circle
+     cx="933"
+     cy="463"
+     r="3"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     stroke-width="1"
+     id="circle2424" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#49aab8"
+     stroke-width="1"
+     points="86,66 98,239 120,326 141,363 163,385 205,410 248,426 291,434 505,453 933,463 "
+     id="polyline2426" />
+  <circle
+     cx="86"
+     cy="184"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2428" />
+  <circle
+     cx="98"
+     cy="290"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2430" />
+  <circle
+     cx="120"
+     cy="348"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2432" />
+  <circle
+     cx="141"
+     cy="374"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2434" />
+  <circle
+     cx="163"
+     cy="395"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2436" />
+  <circle
+     cx="205"
+     cy="412"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2438" />
+  <circle
+     cx="248"
+     cy="427"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2440" />
+  <circle
+     cx="291"
+     cy="431"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2442" />
+  <circle
+     cx="505"
+     cy="454"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2444" />
+  <circle
+     cx="933"
+     cy="464"
+     r="3"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     stroke-width="1"
+     id="circle2446" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#268cf2"
+     stroke-width="1"
+     points="86,184 98,290 120,348 141,374 163,395 205,412 248,427 291,431 505,454 933,464 "
+     id="polyline2448" />
+  <circle
+     cx="86"
+     cy="430"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2450" />
+  <circle
+     cx="98"
+     cy="446"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2452" />
+  <circle
+     cx="120"
+     cy="455"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2454" />
+  <circle
+     cx="141"
+     cy="459"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2456" />
+  <circle
+     cx="163"
+     cy="461"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2458" />
+  <circle
+     cx="205"
+     cy="464"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2460" />
+  <circle
+     cx="248"
+     cy="466"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2462" />
+  <circle
+     cx="291"
+     cy="468"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2464" />
+  <circle
+     cx="505"
+     cy="471"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2466" />
+  <circle
+     cx="933"
+     cy="473"
+     r="3"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     stroke-width="1"
+     id="circle2468" />
+  <polyline
+     fill="none"
+     opacity="1"
+     stroke="#b7db0d"
+     stroke-width="1"
+     points="86,430 98,446 120,455 141,459 163,461 205,464 248,466 291,468 505,471 933,473 "
+     id="polyline2470" />
+  <text
+     x="131"
+     y="67"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2472">
+Recursive
+</text>
+  <text
+     x="131"
+     y="82"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2474">
+Forward difference
+</text>
+  <text
+     x="131"
+     y="97"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2476">
+Hybrid forward difference
+</text>
+  <text
+     x="131"
+     y="112"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2478">
+Parabola approximation
+</text>
+  <text
+     x="131"
+     y="127"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2480">
+Levien
+</text>
+  <text
+     x="131"
+     y="142"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2482">
+Linear
+</text>
+  <text
+     x="131"
+     y="157"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2484">
+Linear2
+</text>
+  <text
+     x="131"
+     y="172"
+     dy="0.76em"
+     text-anchor="start"
+     font-family="sans-serif"
+     font-size="9.67741935483871"
+     opacity="1"
+     fill="#000000"
+     id="text2486">
+Fixed step (cagd)
+</text>
+  <rect
+     x="101"
+     y="67"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#8f8f8f"
+     stroke="none"
+     id="rect2488" />
+  <rect
+     x="101"
+     y="82"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#854be5"
+     stroke="none"
+     id="rect2490" />
+  <rect
+     x="101"
+     y="97"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#ed7de3"
+     stroke="none"
+     id="rect2492" />
+  <rect
+     x="101"
+     y="112"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#e4be08"
+     stroke="none"
+     id="rect2494" />
+  <rect
+     x="101"
+     y="127"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#e85b0a"
+     stroke="none"
+     id="rect2496" />
+  <rect
+     x="101"
+     y="142"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#49aab8"
+     stroke="none"
+     id="rect2498" />
+  <rect
+     x="101"
+     y="157"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#268cf2"
+     stroke="none"
+     id="rect2500" />
+  <rect
+     x="101"
+     y="172"
+     width="20"
+     height="10"
+     opacity="1"
+     fill="#b7db0d"
+     stroke="none"
+     id="rect2502" />
+</svg>
