@@ -1,13 +1,18 @@
 
 - Iterative process
-- Cheap to compute on the CPU
-- Bad at minimizing the number of edges, as we typically pick a constant step `dt`.
-- Typically used in sweep/scanline rasterizers where we only care about the intersection and slop of the curve for a particular row and the number of edges does not have a large effect on performance
+- Very cheap to compute on the CPU.
+- The curve is iterated at a fixed step `dt` . The number of steps is determined ahead of the loop and the method for choosing the number of steps is important.
+	- The only one I tried is the [[CAGD fixed flattening step]].
+	- There adaptative variations of the approach that adapt the step along the curve, see [[Adaptative forward differencing]] and [[Hybrid forward differencing]].
+- Because of the fixed step it tends to produce more edges than algorithms that adapt the step depending on the curvature at each section of the curve.
+- Typically used in sweep/scanline rasterizers where we only care about the intersection and slope of the curve for a particular row and the number of edges does not have a large effect on performance
 - best explaination I found so far in https://www.scratchapixel.com/lessons/geometry/bezier-curve-rendering-utah-teapot/fast-forward-differencing
+- Used in skia's supersampling CPU rasterizer (maybe on the analytical one as well, TODO: check).
+- An important aspect of this algorithm and its adaptative variants is that it can be very efficiently implemented with integer or fixed point numbers. Something to keep in mind when comparing the floating point version of it against other  algorithms which are limited to floating point representations.
 
 # Cubic bézier curves
 
-Expressing the cubic bézier curve in polynomial form:
+Expressing the cubic bézier curve in polynomial form (power basis):
 
 $P(t) = A * t^3 + B * t^2 + C * t + D$
 
@@ -26,7 +31,7 @@ $P''''(t) = 0$
 
 
 Note that for the fourth derivative is zero since we have a cubic polynomial, and the third one is constant.
-Applying this method to the quadratic bézier curve will yiel fewer terms with the third derivative being nil.
+Applying this method to the quadratic bézier curve will yield fewer terms with the third derivative being null.
 
 Taylor series of the cubic bézier curve polynomial:
 

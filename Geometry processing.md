@@ -1,0 +1,4 @@
+# Data structures
+
+## Half-edges
+

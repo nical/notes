@@ -63,17 +63,7 @@ This presentation explains some of what goes into the analytic aa one: [https://
 
 [https://medium.com/@raphlinus/inside-the-fastest-font-renderer-in-the-world-75ae5270c445](https://medium.com/@raphlinus/inside-the-fastest-font-renderer-in-the-world-75ae5270c445)
 
-Instead of processing edges in a swee-line fashion, goes through all edges in their original order and rasterizes them in a temporary accumulation buffer. The output of this rasterization stage is the signed coverage delta at each pixel. Conceptually each pixel of the accumulation buffer represents the difference between the winding number of this pixel and the previous one. So it steps things up for running a simple prefix sum to determine the winding number.
-
-The important ideas here are:
-
--   Instead of using a sparse intermediate representation (scanlines and active edges), font-rs uses a dense representation (an accumulation buffer the size of the output.
--   The sparse approaches have the advantage of not touching pixels that the path do not cover, while font-rs has to run a prefix sum over all pixels of the accumulation buffer.
--   On the other hand, the prefix sum is a very tight and efficient loop with little to no branching and amenable to simd instructions.
--   Tradeoff that depends on the type of content being rendered. Font-rs works very well for small resolutions (typical when rendering glyphs).
-
-
-There are also some hybrid approaches where coverage deltas are built from the input edges but instead of being rendered in a dense accumulation buffer, they are built into a sparse data structure (for example a vector which is then sorted). This is what gouache and other work from the same author do. It also looks very similar to what spinel does (GPU path renderer), although I'm not sure that the internal representation is actually coverage deltas (it is at least something that provides a similar type of information).
+![[Font-rs]]
 
 ## libart
 

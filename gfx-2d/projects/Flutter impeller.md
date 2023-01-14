@@ -1,5 +1,3 @@
-#TODO 
-
 Source: https://github.com/flutter/engine/tree/main/impeller
 
 - looks rather simple overall

@@ -3,7 +3,7 @@ Link: https://github.com/google/skia/tree/main/src/gpu/graphite
 
  - [[Multi-sampling]] (MSAA)
  - [[Stencil and cover]]
- - [[Occulsion culling]] (Depth buffer)
+ - [[2D occulsion culling]] (Depth buffer)
 
 
 Multiple rendering techniques implemented (for example “SDF glyph” or “tessellated stroke”). Each rendering technique has a singleton Renderer which holds a series of RenderStep. RenderStep is where the technique specific code lives. Render steps can be reordered to improve batching (very webrender-like). See graphite/Renderer.h

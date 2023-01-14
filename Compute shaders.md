@@ -9,3 +9,8 @@
   - https://siboehm.com/articles/22/CUDA-MMM
   - https://raphlinus.github.io/gpu/2020/02/12/gpu-resources.html#understanding-the-hardware
   - https://interplayoflight.wordpress.com/2022/12/25/stream-compaction-using-wave-intrinsics/
+
+# Scalarization
+
+#TODO 
+
